@@ -14,8 +14,13 @@ class MoveViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
         testLabel.text = saveData
+    }
+    @IBAction func backButtonTapped(_ sender: UIButton) {
+                dismiss(animated: true, completion: nil)
+           
         // Do any additional setup after loading the view.
     }
     
